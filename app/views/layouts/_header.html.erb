@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <b> <%= link_to "BOOKREVIEW", root_path, class: "navbar-brand" %> </b>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"> <%= link_to t("home"), root_path, class: "nav-link" %> </li>
+      <li class="nav-item"> <%= link_to t("help"), help_path, class: "nav-link" %> </li>
+      <% if logged_in? %>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <%= t("account") %> </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><%= link_to t("profile"), current_user %></li>
+            <li><%= link_to t("settings"), edit_user_path(current_user) %></li>
+            <li class="divider"></li>
+            <li> <%= link_to t("log_out"), logout_path, method: :delete %> </li>
+          </ul>
+        </li>
+      <% else %>
+        <li class="nav-item"> <%= link_to t("log_in"), login_path, class: "nav-link" %> </li>
+      <% end %>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="<%=t"search"%>" aria-label="<%=t"search"%>">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><%=t"search"%></button>
+    </form>
+  </div>
+</nav>

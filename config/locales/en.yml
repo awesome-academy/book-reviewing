@@ -1,0 +1,49 @@
+en:
+  #Header and footer
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+
+  #Home
+  home: "Home"
+  home_intro: "Learn more"
+  welcome: "Welcome to BookReview!"
+
+  #About
+  about: "About"
+  about_intro: "BookReview is a application that you can share your feeling about your favorite book."
+
+  #Help
+  help: "Help"
+  help_intro: "This is the help section for BookReview."
+
+  #Application
+  en: "English"
+  vi: "Vietnamese"
+  top: "Back to top"
+
+  #Log in
+  log_in: "Log in"
+  new: "New here?"
+  create_free: "Create a free account!"
+  invalid: "Invalid email/password combination"
+  remember: "Remember me on this computer"
+
+  #Sign up
+  sign_up: "Sign up"
+  name: "Name"
+  pass: "Password"
+  confirm: "Confirmation"
+  submit: "Create my account"
+  none: "Can not find user"
+  error: "error"
+  form_contain: "The form contains"
+
+  #Search
+  search: "Search"
+
+  #Showing books pages
+  books: "All books"
+  author: "Author: "
+  publishhouse: "Publishing house: "

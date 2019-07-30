@@ -1,0 +1,18 @@
+<% provide :title, @book.book_name %>
+<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+  <div class="col-auto d-none d-lg-block">
+    <%= image_tag(@book.cover, alt: "cover") %>
+  </div>
+  <div class="col p-4 d-flex flex-column position-static">
+    <h2> <strong class="mb-0"><%= @book.book_name %> </strong></h2>
+    <div class="d-inline-block mb-2 text-primary">
+      <%= t "author"%>
+      <%= @book.author.author_name %>
+    </div>
+    <div class="mb-1 text-muted">
+      <%= t "publishhouse"%>
+      <%= @book.publishhouse.publishhouse_name %>
+    </div>
+    <p class="card-text mb-auto"><%= @book.description %></p>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<% provide :title, t("books") %>
+<div class="album py-5 bg-light">
+  <div class="container">
+    <h1><%= t"books" %></h1>
+    <div class="row">
+      <% @books.each do |book| %>
+        <div class="col-md-4 card mb-4 shadow-sm">
+          <%= image_tag(book.cover, alt: "cover", width: "225") %>
+          <div class="card-body">
+            <h4 class="card-text"><%= link_to book.book_name, book %> </h4>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

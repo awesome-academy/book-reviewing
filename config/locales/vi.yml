@@ -1,0 +1,49 @@
+vi:
+  #Header and footer
+  account: "Tài khoản"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
+
+  #Home
+  home: "Trang chủ"
+  home_intro: "Tìm hiểu thêm"
+  welcome: "Chào mừng đến với BookReview!"
+
+  #About
+  about: "Về chúng tôi"
+  about_intro: "BookReview là ứng dụng giúp bạn chia sẻ cảm nhận về cuốn sách mình yêu thích."
+
+  #Help
+  help: "Trợ giúp"
+  help_intro: "Đây là khu vực trợ giúp của BookReview."
+
+  #Application
+  en: "Tiếng Anh"
+  vi: "Tiếng Việt"
+  top: "Quay lại đầu trang"
+
+  #Log in
+  log_in: "Đăng nhập"
+  new: "Người mới?"
+  create_free: "Tạo một tài khoản miễn phí!"
+  invalid: "Email/ mật khẩu không hợp lệ"
+  remember: "Ghi nhớ trên máy tính này"
+
+  #Sign up
+  sign_up: "Đăng ký"
+  name: "Tên"
+  pass: "Mật khẩu"
+  confirm: "Xác nhận mật khẩu"
+  submit: "Tạo tài khoản"
+  none: "Không tìm thấy người dùng"
+  error: "lỗi"
+  form_contain: "Biểu mẫu chứa"
+
+  #Search
+  search: "Tìm kiếm"
+
+  #Showing books pages
+  books: "Tất cả sách"
+  author: "Tác giả: "
+  publishhouse: "Nhà xuất bản: "
